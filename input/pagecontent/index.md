@@ -22,7 +22,7 @@ A summary mapping of the Excel template low-tech option and the equivalent mCODE
 
 ### Approach
 
-FHIR profiles noted in the EOM Clinical Data Elements Guides were created with specific elements marked as "must-support".
+FHIR profiles noted in the EOM Clinical Data Elements Guides were created with specific elements marked as required or "must-support".
 
 
 ### Credits
