@@ -1,4 +1,4 @@
-Profile: eomPatientBundle
+Profile: EomPatientBundle
 Parent: Bundle
 Id: eom-patient-bundle
 Title: "mCODE Patient Bundle Profile"
