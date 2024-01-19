@@ -13,9 +13,10 @@ A summary mapping of the actionable and minimal mCODE-lite elements are shown be
 
 ### Scope
 
-* Mappings were based on the EOM Clinical Data ELements Guide, version 1.0, released on June 1, 2023.
-
-
+Data element prioritization was based on current health initiatives across federal agencies. These include but are not limited to the following efforts currently in development:
+* Enhancing Oncology Model (EOM) Clinical Data ELements Guide, version 2.0 (January 2024)
+* USCDI+ Cancer
+* etc. (add more as identified)
 
 ### Approach
 
@@ -25,7 +26,7 @@ Mostly narrative with hyperlinks to mCODE and other supporting IGs (e.g.: US Cor
 ### Credits
 
 Our thanks to the contributors to the organizations which drive the guidance in this IG:
+* Global Health Alliance
 * Centers of Medicare and Medicaid Services (CMS)
-* Telligen
 * MITRE Corporation
 
