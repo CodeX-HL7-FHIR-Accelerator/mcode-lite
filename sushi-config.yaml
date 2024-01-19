@@ -41,7 +41,7 @@ dependencies:
 #
 pages:
   index.md:
-    title: Enhancing Oncology Model
+    title: mCODE Lite
   example_extended.md:
     title: Extended Example
 
