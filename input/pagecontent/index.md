@@ -1,16 +1,14 @@
 
 ### Background
 
-The Enhancing Oncology Model (EOM) is a Center for Medicare and Medicaid Innovation (CMMI) alternative payment model designed to promote high quality, person-centered care, advance health equity, encourage better care coordination, improve access to care, reduce costs, and improve outcomes for Medicare fee-for-service (FFS) beneficiaries with cancer who receive chemotherapy (source: CMS).
+**Insert introduction on the use of mCODE elements for public cancer data use. Reference different initiatives like CMS EOM and USCDI+ Cancer. Reference other research-related use case needs for public cancer data such as pragmatic clinical trials**.
 
-The EOM Clinical Data Dictionary document provides guidance on the details, terminologies, and definitions necessary for collection and reporting of EOM Clinical Data Elements (CDE) for the seven cancer types that the Centers for Medicare & Medicaid Services (CMS) requires to be reported by Enhancing Oncology Model (EOM) Participants to the Innovation Support Platform (ISP) EOM Health Data Reporting (HDR) application. In addition, this document highlights two reporting options generally in alignment with minimal Common Oncology Data Elements (mCODE) including, 1) a ‘low-tech’ reporting approach utilizing a standardized Excel Template, and 2) a ‘high-tech’ FHIR-based reporting approach leveraging the appropriate mCODE standards for PGPs already engaged in mCODE or planning to engage in mCODE as the data mappings will already be established.
 
-A summary mapping of the Excel template low-tech option and the equivalent mCODE elements are shown below:
+A summary mapping of the actionable and minimal mCODE-lite elements are shown below:
 
 **Replace with markdown table of mappings from HDR excel to data element name updated with the mCODE STU3 update**
 
-<object data="EOM-mcode-data-elements.png"></object>
-<br/>
+<!-- <object data="insert-data-elements-summary-here.png"></object> <br/> -->
 
 
 ### Scope
@@ -21,7 +19,7 @@ A summary mapping of the Excel template low-tech option and the equivalent mCODE
 
 ### Approach
 
-FHIR profiles noted in the EOM Clinical Data Elements Guides were created with specific elements marked as required or "must-support".
+Mostly narrative with hyperlinks to mCODE and other supporting IGs (e.g.: US Core). Profiles only created if needed (TBD on whether we need to bring in mCODE STU3 as a dependency).
 
 
 ### Credits
