@@ -26,6 +26,9 @@ publisher:
 #
 dependencies:
   hl7.fhir.us.mcode: 3.0.0
+  hl7.fhir.us.core: 5.0.1
+  hl7.fhir.uv.genomics-reporting: 2.0.0
+  hl7.fhir.uv.extensions: current
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
@@ -41,9 +44,16 @@ dependencies:
 #
 pages:
   index.md:
-    title: mCODE Lite
+    title: mCODE Lite - Minimal data for federal health initiatives
+  biomarker.md:
+  cancer_condition.md:
+    title: Minimal cancer diagnosis and staging data
+  cancer_patient.md:
+    title: Minimal patient data
   example_extended.md:
     title: Extended Example
+  eom.md:
+    title: mCODE Lite for Enhancing Oncology Model (EOM)
 
 #
 # The parameters property represents IG.definition.parameter. Rather
@@ -69,9 +79,14 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  General Guidance: 
+    Patient: cancer_patient.html
+    Cancer Condition: cancer_condition.html
+    Biomarkers: biomarker.html
   Artifacts: artifacts.html
   Examples:
-    Extended Example: example_extended.html
+    Enhancing Oncology Model: eom.html
+#    Extended Example: example_extended.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
