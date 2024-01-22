@@ -50,6 +50,8 @@ pages:
     title: Minimal cancer diagnosis and staging data
   cancer_patient.md:
     title: Minimal patient data
+  disease_status.md:
+    title: Minimal Cancer disease status
   example_extended.md:
     title: Extended Example
   eom.md:
@@ -83,6 +85,7 @@ menu:
     Patient: cancer_patient.html
     Cancer Condition: cancer_condition.html
     Biomarkers: biomarker.html
+    Disease Status: disease_status.html
   Artifacts: artifacts.html
   Examples:
     Enhancing Oncology Model: eom.html

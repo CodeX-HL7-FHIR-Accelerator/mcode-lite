@@ -6,7 +6,7 @@ The essential fields (Must Support or Cardinality greater than 0..*) to be provi
 
 | Element name                     | mCODE Element Path                              |  Cardinality   | Guidance                                                   |
 |----------------------------------|-------------------------------------------------|:--------------:|------------------------------------------------------------|
-| Cancer type name                 | Condition.code                                  |     1..1       | EOM constrains to ICD-10-CM |
+| Cancer type name                 | Condition.code                                  |     1..1       | EOM constrains to ICD-10-CM and a minimum of certain cancer types. |
 | Cancer asserted date             | Condition.assertedDate                          |     0..1 MS    |  |
 | Histology                        | Condition.extension:histologyMorphologyBehavior |     0..1 MS    | EOM constrains value set to ICD-O-3. Not in USCDI+ Cancer. |
-| Clinical status                  | Condition.clinicalStatus                        |     0..1 MS    | EOM constrains to `recurrence` or `relapse` status only.         |
+| Clinical status                  | Condition.clinicalStatus                        |     0..1 MS    | EOM constrains to `recurrence` or `relapse` status only.   |

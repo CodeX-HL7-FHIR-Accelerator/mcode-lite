@@ -4,7 +4,7 @@ Cancer patient identification information is exchanged referencing the [mCODE Ca
 The essential fields (Must Support or Cardinality greater than 0..*) to be provided in the [mCODE-FH](StructureDefinition-mcode-fh-cancer-patient.html) resource are:
 
 
-Element name                       | mCODE Element                    |  Cardinality       | Guidance                                            |
+|Element name                       | mCODE Element                    |  Cardinality       | Guidance                                            |
 |----------------------------------|----------------------------------|:------------------:|-----------------------------------------------------|
 | Last name                        | Patient.name.family              |     1..1           |  |
 | First name                       | Patient.name.given               |     1..1           | First name |
