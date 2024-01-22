@@ -1,0 +1,1 @@
+The following example applies mCODE Lite to the [CMS Enhancing Oncology Model (EOM)](https://www.cms.gov/priorities/innovation/innovation-models/enhancing-oncology-model) initiative.

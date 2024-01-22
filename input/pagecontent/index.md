@@ -25,8 +25,18 @@ Mostly narrative with hyperlinks to mCODE and other supporting IGs (e.g.: US Cor
 
 ### Credits
 
-Our thanks to the contributors to the organizations which drive the guidance in this IG:
-* Global Health Alliance
+Our thanks to the contributing organizations which drive the guidance in this IG:
+* Global Alliant
 * Centers of Medicare and Medicaid Services (CMS)
 * MITRE Corporation
 
+
+**Notes:**
+Goal: keeping CMS in line. Adopt a similar approach to the way [PDEx](https://build.fhir.org/ig/HL7/davinci-epdx/toc.html) reference US Core with some narrative on how mCODE resources would be leveraged.
+
+Options:
+1. bring in mCODE profiles and exclude elements with 0..0. **mlt_update_20240121**: tested and not a good option because it will reject any resource instance containing the 0..0 specified elements.
+2. adopt the PDEx approach and only bring in profiles if there needs to be further constraints. The rest is narrative. Change optional things as 0..0
+
+* for tumor markers, create narrative that TumorMarkerTest could be a subset of mCODE, give an example that narrows down the mCODE value set to ER, PR, HER2, and then (in general assumptions section) assume that conformance will be based on attestation (not programmatically validating).
+  
