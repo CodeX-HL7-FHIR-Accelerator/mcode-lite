@@ -22,6 +22,9 @@ Data element prioritization was based on current health initiatives across feder
 
 Mostly narrative with hyperlinks to mCODE and other supporting IGs (e.g.: US Core). Profiles only created if needed (TBD on whether we need to bring in mCODE STU3 as a dependency).
 
+<br/>
+<object data="mCodeLiteDiagram.svg" type="image/svg+xml"></object>
+<br/>
 
 ### Credits
 
