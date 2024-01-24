@@ -1,4 +1,4 @@
-/* Example instance of minimal cancer staging */
+/* Example instance of minimal cancer disease status */
 Profile: McodeFhDiseaseStatus
 Parent: McodeDiseaseStatus
 Id: mcode-fh-cancer-disease-status

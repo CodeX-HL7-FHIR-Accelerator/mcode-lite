@@ -8,3 +8,4 @@ Alias: McodeNCategory = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-t
 Alias: McodeMCategory = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tnm-distant-metastases-category
 Alias: McodeTumorMarkerTest = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test
 Alias: McodeDiseaseStatus = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-disease-status
+Alias: McodeHxMetCancer = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-history-of-metastatic-cancer

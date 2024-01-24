@@ -111,3 +111,13 @@ Description: "Example of Practitioner"
 * address.postalCode = "12345"
 * address.country = "US"
 * qualification.code = http://terminology.hl7.org/CodeSystem/v2-0360#MD "Doctor of Medicine"
+
+Instance: no-history-of-metastatic-cancer 
+InstanceOf: HistoryOfMetastaticCancer
+Description: "Example showing no history of metastatic cancer"
+* status = #final 
+* code = SCT#1287652008 "History of metastatic malignant neoplasm (situation)"
+* subject = Reference(cancer-patient-jane-anyperson)
+* effectiveDateTime = "2018-11-16"
+* performer = Reference(us-core-practitioner-kyle-anydoc)
+* valueBoolean = false
