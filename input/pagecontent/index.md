@@ -11,10 +11,6 @@ A summary mapping of the actionable and minimal mCODE-lite elements are shown be
 <br/>
 
 
-**Replace with markdown table of mappings from HDR excel to data element name updated with the mCODE STU3 update**
-
-<!-- <object data="insert-data-elements-summary-here.png"></object> <br/> -->
-
 
 ### Scope
 
@@ -27,6 +23,9 @@ Data element prioritization was based on current health initiatives across feder
 
 We provide mostly narrative with hyperlinks to the related mCODE STU3 resource. Profiles derived from their relevant mCODE profile if further constraints or extensions are needed.
 
+### How to read this guide
+
+Examples on how to apply this guide for specific federal initiatives are added in the Case Study menu. Note that they are meant to be illustrative and will not comprehensively cover all aspects of conformance to their respective FHIR data submission requirements. 
 
 ### Credits
 
