@@ -46,17 +46,17 @@ pages:
   index.md:
     title: mCODE Lite - Minimal data for federal health initiatives
   biomarker.md:
+    title: Tumor marker test
   cancer_condition.md:
-    title: Minimal cancer diagnosis and staging data
+    title: Cancer diagnosis and staging data
   cancer_patient.md:
-    title: Minimal patient data
+    title: Patient data
   disease_status.md:
-    title: Minimal Cancer disease status
-  example_extended.md:
-    title: Extended Example
+    title: Cancer disease status
   eom.md:
     title: mCODE Lite for Enhancing Oncology Model (EOM)
-
+  hx_of_metastatic_cancer.md:
+    title: History of metastatic cancer
 #
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -86,10 +86,10 @@ menu:
     Cancer Condition: cancer_condition.html
     Biomarkers: biomarker.html
     Disease Status: disease_status.html
+    History of Metastatic Cancer: hx_of_metastatic_cancer.html
   Artifacts: artifacts.html
-  Examples:
+  Use Cases:
     Enhancing Oncology Model: eom.html
-#    Extended Example: example_extended.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
