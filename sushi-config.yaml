@@ -44,7 +44,7 @@ dependencies:
 #
 pages:
   index.md:
-    title: mCODE Lite - Minimal data for federal health initiatives
+    title: mCODE Lite - Minimal cancer data for federal health initiatives
   biomarker.md:
     title: Tumor marker test
   cancer_condition.md:
