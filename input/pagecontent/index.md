@@ -7,8 +7,21 @@
 
 ### Background
 
+Since its initial publication in March 2020, the minimal Common Oncology Data Elements (mCODE) Fast Healthcare Interoperability Resources (FHIR) Implementation Guide (IG) has significantly made an impact on standardizing the exchange of cancer data. Now in its third standard for trial use edition ([mCODE STU3](https://hl7.org/fhir/us/mcode/)), parts of mCODE have been adopted by a wide community of providers, payers, standards development organizations (SDOs). 
+
+The mCODE specification however asserts that it is a ["domain of knowledge" implementation](https://hl7.org/fhir/us/mcode/#understanding-this-guide) in that there may be more specific use cases which merit further clarification on which mCODE elements are relevant for use. 
+
+mCODE's [development history](https://hl7.org/fhir/us/mcode/#development-history) began with a provider's view of a minimal and actionable set of elements that empowered shared-decision making between a provider and patient for the diagnosis, treatment, and monitoring of cancer. The mCODE scope has since evolved to expand a broader set of elements that were informed by several drivers: 
+* addressing more specific clinical use cases in the HL7 CodeX FHIR Accelerator. such as integrated trials matching and cancer registry reporting.
+* use in clinical research such as pragmatic clinical trials, and interventional or observational studies.
+* federally driven health-interoperability initiatives like CC-DIRECT and USCDI+ Cancer.
+
+Each of these efforts may vary in scope. Some initiatives like the CMS Enhancing Oncology Model (EOM) narrows down mCODE to less than 20 elements while USCDI+ cancer adds additional elements which were included as part of the USCDI core data requirements. Subsequently, there is a need to better identify how mCODE could apply or be further refined to address these efforts.
+
 mCODE continue the "capture once, use many times" approach to cancer data interoperability. This IG aims to further clarify the context as it relates to federal health initiatives.
-**Insert introduction on the use of mCODE elements for public cancer data use. Reference different initiatives like CMS EOM and USCDI+ Cancer. Reference other research-related use case needs for public cancer data such as pragmatic clinical trials**.
+
+
+### Approach
 
 
 A summary mapping of the actionable and minimal mCODE-lite elements are shown below:
@@ -18,18 +31,22 @@ A summary mapping of the actionable and minimal mCODE-lite elements are shown be
 <br/>
 
 
-
 ### Scope
+
+<blockquote class="stu-note">
+    <p>
+    It is important to realize that neither mCODE, nor this guidance is exclusionary of any other FHIR resources that may be included in a data exchange. Any references to profiles in this IG support open components and extensions. 
+    </p>
+</blockquote>
 
 This IG was informed by health initiatives across federal agencies. These include but are not limited to the following efforts currently in development:
 * Enhancing Oncology Model (EOM) Clinical Data ELements Guide, version 2.0 (January 2024)
 * [USCDI+ Cancer](https://uscdiplus.healthit.gov/uscdi?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=71df78228745b95098e5edb90cbb3527&view=sp): A service that ONC provides to federal partners who have a need to establish, harmonize, and advance the use of interoperable datasets that extend beyond the core data in the USCDI in order to meet agency-specific programmatic requirements (source: [USCDI](https://uscdiplus.healthit.gov/uscdi)).
 
-### Approach
-
-We provide mostly narrative with hyperlinks to the related mCODE STU3 resource. Profiles derived from their relevant mCODE profile if further constraints or extensions are needed.
 
 ### How to read this guide
+
+We provide mostly narrative with hyperlinks to the related mCODE STU3 resource. Profiles derived from their relevant mCODE profile if further constraints or extensions are needed.
 
 Examples on how to apply this guide for specific federal initiatives are added in the Case Study menu. Note that they are meant to be illustrative and will not comprehensively cover all aspects of conformance to their respective FHIR data submission requirements. 
 
