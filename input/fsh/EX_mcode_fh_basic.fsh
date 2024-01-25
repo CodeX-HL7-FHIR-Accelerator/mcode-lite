@@ -113,7 +113,7 @@ Description: "Example of Practitioner"
 * qualification.code = http://terminology.hl7.org/CodeSystem/v2-0360#MD "Doctor of Medicine"
 
 Instance: no-history-of-metastatic-cancer 
-InstanceOf: HistoryOfMetastaticCancer
+InstanceOf: McodeFhHxMetastaticCancer
 Description: "Example showing no history of metastatic cancer"
 * status = #final 
 * code = SCT#1287652008 "History of metastatic malignant neoplasm (situation)"
@@ -121,3 +121,14 @@ Description: "Example showing no history of metastatic cancer"
 * effectiveDateTime = "2018-11-16"
 * performer = Reference(us-core-practitioner-kyle-anydoc)
 * valueBoolean = false
+
+
+Instance: tumor-marker-test-er-jane-anyperson
+InstanceOf: McodeFhTumorMarkerTest
+Description: "Extended example: example showing ER status"
+* status = #final "final"
+* code = LNC#85337-4 "Estrogen receptor Ag [Presence] in Breast cancer specimen by Immune stain"
+* subject = Reference(cancer-patient-jane-anyperson)
+* effectiveDateTime = "2018-11-16"
+* performer = Reference(us-core-practitioner-kyle-anydoc)
+* valueCodeableConcept = LNC#LA6576-8 "Positive"

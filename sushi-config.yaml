@@ -3,11 +3,10 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: fhir.mcodelite
-canonical: http://mitre.org/mcodelite
-name: mcodelite
-title: mCODE-Lite FHIR IG
-# description: Example Implementation Guide for getting started with SUSHI
+id: fhir.mcodefh
+canonical: http://mitre.org/mcodefh
+name: McodeFederalHealth
+title: "mCODE for Federal Health (mCODE-FH)"
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -44,7 +43,7 @@ dependencies:
 #
 pages:
   index.md:
-    title: mCODE Lite - Minimal cancer data for federal health initiatives
+    title: mCODE Federal Health (mCODE-FH)
   biomarker.md:
     title: Tumor marker test
   cancer_condition.md:
@@ -53,8 +52,10 @@ pages:
     title: Patient data
   disease_status.md:
     title: Cancer disease status
+  download.md:
+    title: Downloads
   eom.md:
-    title: mCODE Lite for Enhancing Oncology Model (EOM)
+    title: Use Case - mCODE FH in Enhancing Oncology Model (EOM)
   hx_of_metastatic_cancer.md:
     title: History of metastatic cancer
 #
@@ -87,7 +88,8 @@ menu:
     Biomarkers: biomarker.html
     Disease Status: disease_status.html
     History of Metastatic Cancer: hx_of_metastatic_cancer.html
-  Artifacts: artifacts.html
+  Artifacts: 
+    Downloads: download.html
   Use Cases:
     Enhancing Oncology Model: eom.html
 
@@ -106,88 +108,6 @@ contact:
       - system: email # phone | fax | email | pager | url | sms | other
         value: mayT@mitre.org
         use: work
-#
-#
-# The global property corresponds to the IG.global property, but it
-# uses the type as the YAML key and the profile as its value. Since
-# FHIR does not explicitly disallow more than one profile per type,
-# neither do we; the value can be a single profile URL or an array
-# of profile URLs. If a value is an id or name, SUSHI will replace
-# it with the correct canonical when generating the IG JSON.
-#
-# global:
-#   Patient: http://example.org/fhir/StructureDefinition/my-patient-profile
-#   Encounter: http://example.org/fhir/StructureDefinition/my-encounter-profile
-#
-#
-# The resources property corresponds to IG.definition.resource.
-# SUSHI can auto-generate all of the resource entries based on
-# the FSH definitions and/or information in any user-provided
-# JSON or XML resource files. If the generated entries are not
-# sufficient or complete, however, the author can add entries
-# here. If the reference matches a generated entry, it will
-# replace the generated entry. If it doesn't match any generated
-# entries, it will be added to the generated entries. The format
-# follows IG.definition.resource with the following differences:
-#   * use IG.definition.resource.reference.reference as the YAML key.
-#   * if the key is an id or name, SUSHI will replace it with the
-#     correct URL when generating the IG JSON.
-#   * specify "omit" to omit a FSH-generated resource from the
-#     resource list.
-#   * if the exampleCanonical is an id or name, SUSHI will replace
-#     it with the correct canonical when generating the IG JSON.
-#   * groupingId can be used, but top-level groups syntax may be a
-#     better option (see below).
-# The following are simple examples to demonstrate what this might
-# look like:
-#
-# resources:
-#   Patient/my-example-patient:
-#     name: My Example Patient
-#     description: An example Patient
-#     exampleBoolean: true
-#   Patient/bad-example: omit
-#
-#
-# Groups can control certain aspects of the IG generation.  The IG
-# documentation recommends that authors use the default groups that
-# are provided by the templating framework, but if authors want to
-# use their own instead, they can use the mechanism below.  This will
-# create IG.definition.grouping entries and associate the individual
-# resource entries with the corresponding groupIds. If a resource
-# is specified by id or name, SUSHI will replace it with the correct
-# URL when generating the IG JSON.
-#
-# groups:
-#   GroupA:
-#     name: Group A
-#     description: The Alpha Group
-#     resources:
-#     - StructureDefinition/animal-patient
-#     - StructureDefinition/arm-procedure
-#   GroupB:
-#     name: Group B
-#     description: The Beta Group
-#     resources:
-#     - StructureDefinition/bark-control
-#     - StructureDefinition/bee-sting
-#
-#
-# The ImplementationGuide resource defines several other properties
-# not represented above. These properties can be used as-is and
-# should follow the format defined in ImplementationGuide:
-# * date
-# * meta
-# * implicitRules
-# * language
-# * text
-# * contained
-# * extension
-# * modifierExtension
-# * experimental
-# * useContext
-# * copyright
-# * packageId
 #
 #
 # ╭──────────────────────────────────────────SUSHI flags───────────────────────────────────────────╮
@@ -212,12 +132,12 @@ contact:
 instanceOptions:
   # When set to true, slices must be referred to by name and not only by a numeric index in order to be used
   # in an Instance's assignment rule. All slices appear in the order in which they are specified in FSH rules.
-  # While SUSHI defaults to false for legacy reasons, manualSliceOrding is recommended for new projects.
+  # While SUSHI defaults to false for legacy reasons, manualSliceOrdering is recommended for new projects.
   manualSliceOrdering: true # true | false
   # Determines for which types of Instances SUSHI will automatically set meta.profile
   # if InstanceOf references a profile:
   #
-  # setMetaProfile: always # always | never | inline-only | standalone-only
+  setMetaProfile: inline-only # always | never | inline-only | standalone-only
   #
   #
   # Determines for which types of Instances SUSHI will automatically set id
