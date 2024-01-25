@@ -9,3 +9,4 @@ The essential fields (Must Support or Cardinality greater than 0..*) to be provi
 | status                           | Observation.status               |     1..1           | EOM: only `final` status. |
 | subject                          | Reference(McodeFhPatient)        |     1..1           |  |
 | effectiveDateTime                | Reference(McodeFhPatient)        |     1..1           |  |
+{: .grid}

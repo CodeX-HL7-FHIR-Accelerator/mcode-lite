@@ -10,3 +10,4 @@ The essential fields (Must Support or Cardinality greater than 0..*) to be provi
 | Cancer asserted date             | Condition.assertedDate                          |     0..1 MS    |  |
 | Histology                        | Condition.extension:histologyMorphologyBehavior |     0..1 MS    | EOM constrains value set to ICD-O-3. Not in USCDI+ Cancer. |
 | Clinical status                  | Condition.clinicalStatus                        |     0..1 MS    | EOM constrains to `recurrence` or `relapse` status only.   |
+{: .grid}
