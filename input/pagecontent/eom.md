@@ -33,8 +33,8 @@ The EOM IG specifier can collectively represent these requirements in 2 ways:
 * As a FHIR Bundle - this may be a better option for specifying a collection of relevant resources as EOM submission requirements.
 
 Partial examples are included in this IG for illustrative purposes:
-* [EOM as a CapabilityStatement](CapabilityStatement-eom-mcode-server)
-* [EOM as a FHIR Bundle](StructureDefinition-mcode-patient-bundle)
+* [EOM as a CapabilityStatement](CapabilityStatement-eom-mcode-server.html)
+* [EOM as a FHIR Bundle](StructureDefinition-mcode-patient-bundle.html)
 
 
 **TBD**
