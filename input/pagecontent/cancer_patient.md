@@ -1,3 +1,8 @@
+<blockquote class="stu-note">
+    <p>
+    <strong>This page is under development and subject to change pending review feedback.</strong>
+    </p>
+</blockquote>
 
 Cancer patient identification information is exchanged referencing the [mCODE Cancer Patient](https://hl7.org/fhir/us/mcode/StructureDefinition-mcode-cancer-patient.html) resource.  
 
@@ -13,3 +18,5 @@ The essential fields (Must Support or Cardinality greater than 0..*) to be provi
 | Deceased date                    | Patient.deceased \[dateTime]     |     0..1 MS        | |
 | Birth Sex                        | Patient.extension.birthsex       |     0..1 MS        | |
 {: .grid}
+
+**TBD**

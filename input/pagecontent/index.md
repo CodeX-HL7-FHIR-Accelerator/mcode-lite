@@ -1,7 +1,11 @@
 
 ### Purpose
 
-The purpose of this knowledge artifact is to inform the reader on how to leverage mCODE in the creation of derived implementation guides for federal health initiatives. This IG is not formally published by Health Level 7. Rather, it is to be used as an informative, mostly narrative-driven document. Examples may be provided for illustrative purposes but should not be considered complete.
+<blockquote class="stu-note">
+    <p>
+    The purpose of this knowledge artifact is to inform the reader on how to leverage mCODE in the creation of derived implementation guides for federal health initiatives. This IG is in development not formally published by Health Level 7. Rather, it is to be used as an informative, mostly narrative-driven document. Examples may be provided for illustrative purposes but should not be considered complete. The goal is to provide scoped views into mCODE that may be tailored to use cases in federal health.
+    </p>
+</blockquote>
 
 ### Background
 
@@ -22,7 +26,7 @@ mCODE still aims to "capture data once, use many times" in the approach to cance
 The approach in creating a lightweight version of mCODE involved the following steps:
 * gathering relevant data models relevant to ONC and CMS-related federal health initiatives. These include but are not limited to the following efforts currently in development:
   * [Enhancing Oncology Model (EOM) Clinical Data ELements Guide, version 2.0 (January 2024)](https://www.cms.gov/priorities/innovation/media/document/eom-clinical-data-elements-guide)
-  * [USCDI+ Cancer](https://uscdiplus.healthit.gov/uscdi?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=71df78228745b95098e5edb90cbb3527&view=sp): A service that ONC provides to federal partners who have a need to establish, harmonize, and advance the use of interoperable datasets that extend beyond the core data in the USCDI in order to meet agency-specific programmatic requirements (source: [USCDI](https://uscdiplus.healthit.gov/uscdi)).
+  * **TBD** on other artifacts such as [USCDI+ Cancer](https://uscdiplus.healthit.gov/uscdi?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=71df78228745b95098e5edb90cbb3527&view=sp): A service that ONC provides to federal partners who have a need to establish, harmonize, and advance the use of interoperable datasets that extend beyond the core data in the USCDI in order to meet agency-specific programmatic requirements (source: [USCDI](https://uscdiplus.healthit.gov/uscdi)).
 
 A summary mapping of the actionable and minimal mCODE-lite elements are shown below:
 
