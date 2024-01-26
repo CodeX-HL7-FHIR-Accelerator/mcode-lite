@@ -88,7 +88,8 @@ menu:
     Biomarkers: biomarker.html
     Disease Status: disease_status.html
     History of Metastatic Cancer: hx_of_metastatic_cancer.html
-  Artifacts: 
+  FHIR Artifacts: 
+    Artifacts: artifacts.html
     Downloads: download.html
   Use Cases:
     Enhancing Oncology Model: eom.html
