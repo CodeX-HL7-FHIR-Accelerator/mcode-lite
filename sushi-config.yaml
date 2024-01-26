@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.mcodelite
 canonical: http://mitre.org/mcodelite
-name: McodeFederalHealth
+name: McodeLite
 title: "mCODE Lite (mCODE-LITE)"
 status: draft # draft | active | retired | unknown
 version: 0.1.0
@@ -43,7 +43,7 @@ dependencies:
 #
 pages:
   index.md:
-    title: mCODE Federal Health (mCODE-FH)
+    title: mCODE Lite
   biomarker.md:
     title: Tumor marker test
   cancer_condition.md:
