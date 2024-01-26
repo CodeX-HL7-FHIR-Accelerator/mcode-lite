@@ -3,10 +3,10 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: fhir.mcodefh
-canonical: http://mitre.org/mcodefh
-name: McodeFederalHealth
-title: "mCODE for Federal Health (mCODE-FH)"
+id: fhir.mcodelite
+canonical: http://mitre.org/mcodelite
+name: McodeLite
+title: "mCODE Lite (mCODE-LITE)"
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -43,7 +43,7 @@ dependencies:
 #
 pages:
   index.md:
-    title: mCODE Federal Health (mCODE-FH)
+    title: mCODE Lite
   biomarker.md:
     title: Tumor marker test
   cancer_condition.md:
