@@ -43,7 +43,7 @@ Description: "Minimal data set for TNM Primary Tumor Category"
 Profile: McodeFhNCategory
 Parent: McodeNCategory
 Id: cancer-staging-tnm-regional-node-category
-Title: "Minimal TNM Staging Primary Tumor Category"
+Title: "Minimal TNM Staging Regional Node Category"
 Description: "Minimal data set for TNM Regional Node Category"
 
 * . MS  // make the whole profile must-support

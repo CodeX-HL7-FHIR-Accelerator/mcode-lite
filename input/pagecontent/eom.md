@@ -11,14 +11,16 @@ EOM participants are oncology PGPs that prescribe and administer chemotherapy fo
 
 #### Cancer types
 
-* "low-risk" breast cancer and "low-intensity" prostate cancer involve additional logic using `PrimaryCancerCondition` and drug classes represented in `CancerRelatedMedicationAdministration`.  There is no formal SNOMED or ICD-10 code with that explicit description.
+EOM further specifies conditional filtering of cancer subtypes. Namely, "low-risk" breast cancer and "low-intensity" prostate cancer. There is no formal SNOMED or ICD-10 code with such explicit descriptions. Therefore, the submission of an EOM cancer patient for either breast or prostate cancer may involve additional upstream logic that leverages `PrimaryCancerCondition` and drug classes represented in `CancerRelatedMedicationAdministration`.
 
-The following example applies mCODE to the [CMS Enhancing Oncology Model (EOM)](https://www.cms.gov/priorities/innovation/innovation-models/enhancing-oncology-model) initiative.
+#### Biomarkers
+EOM scopes further constraining TumorMarkerTest for contextual biomarkers relative to the seven scoped cancer types.
+* patient identifier invariants that require a minimum of a Medicare identifier.
 
-#### Example 1: EOM as a CapabilityStatement
+The EOM IG specifier can collectively represent these requirements in 2 ways:
+* As a CapabilityStatement - this is beneficial in narrowing server and client messaging and query requirements of relevant FHIR resources.
+* As a FHIR Bundle - this may be a better option for specifying a collection of relevant resources as EOM submission requirements.
 
-**Enter link to an EOM CapabilityStatement**
-
-#### Example 2: EOM as a Bundle
-**Enter link to an example EOM bundle**
-
+Partial examples are included in this IG for illustrative purposes:
+* [EOM as a CapabilityStatement](CapabilityStatement-eom-mcode-server)
+* [EOM as a FHIR Bundle](StructureDefinition-mcode-patient-bundle)
