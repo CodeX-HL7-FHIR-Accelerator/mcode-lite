@@ -3,7 +3,7 @@
 
 <blockquote class="stu-note">
     <p>
-    The purpose of this knowledge artifact is to inform the reader on how to leverage mCODE in the creation of derived implementation guides for federal health initiatives. This IG is in development not formally published by Health Level 7. Rather, it is to be used as an informative, mostly narrative-driven document. Examples may be provided for illustrative purposes but should not be considered complete. The goal is to provide scoped views into mCODE that may be tailored to use cases in federal health.
+    The purpose of this knowledge artifact is to inform the reader on how to leverage mCODE in the creation of derived implementation guides for federal health initiatives. This IG is in development not formally published by Health Level 7. Rather, it is an informative, mostly narrative-driven document. Examples may be provided for illustrative purposes but should not be considered complete. The goal is to provide scoped views into mCODE that may be tailored to use cases in federal health.
     </p>
 </blockquote>
 
