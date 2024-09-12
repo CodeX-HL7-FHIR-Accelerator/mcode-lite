@@ -28,7 +28,7 @@ The approach in creating a lightweight version of mCODE involved the following s
   * [Enhancing Oncology Model (EOM) Clinical Data ELements Guide, version 2.0 (January 2024)](https://www.cms.gov/priorities/innovation/media/document/eom-clinical-data-elements-guide)
   * **TBD** on other artifacts such as [USCDI+ Cancer](https://uscdiplus.healthit.gov/uscdi?id=uscdi_record&table=x_g_sshh_uscdi_domain&sys_id=71df78228745b95098e5edb90cbb3527&view=sp): A service that ONC provides to federal partners who have a need to establish, harmonize, and advance the use of interoperable datasets that extend beyond the core data in the USCDI in order to meet agency-specific programmatic requirements (source: [USCDI](https://uscdiplus.healthit.gov/uscdi)).
 
-A summary mapping of the actionable and minimal mCODE-lite elements are shown below:
+A summary of the actionable and minimal mCODE-lite elements are shown below:
 
 <br/>
 <object data="mCodeLiteDiagram.svg" type="image/svg+xml"></object>
